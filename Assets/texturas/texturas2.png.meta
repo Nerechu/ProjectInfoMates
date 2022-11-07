@@ -105,48 +105,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: texturas2_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 537
-        width: 198
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1aa62a1ef71e9994187d093ec12e09ea
-      internalID: 702070963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_2
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 527
-        width: 200
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 626a83fcc7b55784096a8c65abf16782
-      internalID: -2130933496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: texturas2_3
       rect:
         serializedVersion: 2
@@ -155,7 +113,7 @@ TextureImporter:
         width: 4
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,174 +121,6 @@ TextureImporter:
       bones: []
       spriteID: aff9d81b7421b8646a8cb0deb0cd0fcd
       internalID: -1951752736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_4
-      rect:
-        serializedVersion: 2
-        x: 397
-        y: 524
-        width: 200
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1eab14a9143298c4ab79898e19c0e610
-      internalID: -51170849
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_5
-      rect:
-        serializedVersion: 2
-        x: 597
-        y: 527
-        width: 199
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c846ac716116d1d44808e6ddbcc3d2a4
-      internalID: -1338440571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 347
-        width: 200
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1e2002735cbec84597985eba52f3b86
-      internalID: -148311198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_7
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 351
-        width: 201
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d76a20484ee7248449fb80d43da348a3
-      internalID: 222081786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_8
-      rect:
-        serializedVersion: 2
-        x: 398
-        y: 349
-        width: 201
-        height: 159
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 763fabcdb90d9784eaa8a019d2adce97
-      internalID: -1100907365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_9
-      rect:
-        serializedVersion: 2
-        x: 597
-        y: 351
-        width: 200
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fdae6190d0dfbf49b7c82f62faa9d1f
-      internalID: -1003373540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_12
-      rect:
-        serializedVersion: 2
-        x: 183
-        y: 107
-        width: 212
-        height: 142
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ace875feaa56a0544a6a828b4cac5de4
-      internalID: 1988157624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_17
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 1291
-        width: 197
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be78198db94b9a145b2ce4d6493802f6
-      internalID: -1300154231
       vertices: []
       indices: 
       edges: []
@@ -344,7 +134,7 @@ TextureImporter:
         width: 197
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -365,7 +155,7 @@ TextureImporter:
         width: 200
         height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -386,7 +176,7 @@ TextureImporter:
         width: 200
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -407,7 +197,7 @@ TextureImporter:
         width: 198
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -415,174 +205,6 @@ TextureImporter:
       bones: []
       spriteID: ab2e37b1ca62f114da6328d926b72f26
       internalID: -2001441523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_21
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1178
-        width: 196
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9b367c499616a54abf97370a7b425cc
-      internalID: -1251344222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_22
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 1177
-        width: 197
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43819240f290a47488c430ef3c130721
-      internalID: 640918296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_23
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 1177
-        width: 199
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 275197a509d88e14c9a758254fdc23f9
-      internalID: -39042238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_24
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 1178
-        width: 199
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e976399c0df1b048a0e4b4167874988
-      internalID: -926216335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_25
-      rect:
-        serializedVersion: 2
-        x: 793
-        y: 1178
-        width: 200
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d9b5011a210a6646b9324a3435e4314
-      internalID: -2001412450
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_26
-      rect:
-        serializedVersion: 2
-        x: 793
-        y: 1063
-        width: 198
-        height: 115
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e1343360e3f7d24ca4abf34f6a3f9b1
-      internalID: -1652349955
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_27
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 1064
-        width: 199
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e607ddccdadc3540b9cbabda6aef60d
-      internalID: 955050755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: texturas2_28
-      rect:
-        serializedVersion: 2
-        x: 394
-        y: 1064
-        width: 200
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c8295b42cfb74e44af08d12eca846e2
-      internalID: -1005097368
       vertices: []
       indices: 
       edges: []
@@ -596,7 +218,7 @@ TextureImporter:
         width: 196
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -617,7 +239,7 @@ TextureImporter:
         width: 199
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -638,7 +260,7 @@ TextureImporter:
         width: 197
         height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -659,7 +281,7 @@ TextureImporter:
         width: 189
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -680,7 +302,7 @@ TextureImporter:
         width: 190
         height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -701,7 +323,7 @@ TextureImporter:
         width: 197
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -722,7 +344,7 @@ TextureImporter:
         width: 201
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
