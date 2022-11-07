@@ -9,7 +9,7 @@ public class Nau : MonoBehaviour
     public GameObject _prefabProjectil;
     public GameObject _prefabProjectil2;
     public GameObject _posCano;
-    public GameObject _posCano2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,9 +22,7 @@ public class Nau : MonoBehaviour
         if (Input.GetKeyDown("space"))
         {
             GameObject projectil = Instantiate(_prefabProjectil);
-            GameObject projectil2 = Instantiate(_prefabProjectil2);
             projectil.transform.position = _posCano.transform.position;
-            projectil2.transform.position = _posCano2.transform.position;
         }
 
         //Trobar costats pantalla
