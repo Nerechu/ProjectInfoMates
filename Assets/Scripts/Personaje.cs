@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Nau : MonoBehaviour
+public class Personaje : MonoBehaviour
 {
     public float _vel;
 
     public GameObject _prefabProjectil;
-    public GameObject _prefabProjectil2;
     public GameObject _posCano;
 
     // Start is called before the first frame update
@@ -40,7 +39,7 @@ public class Nau : MonoBehaviour
 
         Vector2 dirrecioIndicada = new Vector2(direccioX, direccioY).normalized;
 
-        //Trobem posició actual de la nau:
+        //Trobem posició actual del personatge:
         Vector2 posNova = transform.position;
         posNova += dirrecioIndicada * _vel * Time.deltaTime;
         posNova.x = Mathf.Clamp (posNova.x, minPantalla.x, maxPantalla.x);
