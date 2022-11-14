@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ef23ebeb80bb8f84797b8210a08f6a92
+guid: 51fe1f55e1b656b4496e1684e418fcce
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "arbolOto\xF1o_0"
+      name: Rocas-Arena_0
       rect:
         serializedVersion: 2
-        x: 734
-        y: 593
-        width: 27
-        height: 33
+        x: 128
+        y: 53
+        width: 94
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,41 +131,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d23192aa2101c94f85edf95af15b662
-      internalID: 1919216132
+      spriteID: 0df6a44048bdc3742a3e07ca7d8aab2a
+      internalID: -683784263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "arbolOto\xF1o_1"
+      name: Rocas-Arena_1
       rect:
         serializedVersion: 2
-        x: 724
-        y: 541
-        width: 34
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 25
+        y: 201
+        width: 88
+        height: 76
+      alignment: 9
+      pivot: {x: 0.47846082, y: 0.48552316}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: accf34d40331ad64eb57a049e6badc48
-      internalID: 1030363530
+      spriteID: 7b2c5220a436d4e4986377b1aef2c31d
+      internalID: -540282018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "arbolOto\xF1o_2"
+      name: Rocas-Arena_2
       rect:
         serializedVersion: 2
-        x: 719
-        y: 479
-        width: 47
-        height: 52
+        x: 126
+        y: 232
+        width: 77
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc0e6e23641f5534a8fabdd19c47a49a
-      internalID: 690582458
+      spriteID: 54413830504e4cf4b86361fcf9149176
+      internalID: 1000451756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "arbolOto\xF1o_3"
+      name: Rocas-Arena_3
       rect:
         serializedVersion: 2
-        x: 726
-        y: 445
-        width: 37
-        height: 26
+        x: 131
+        y: 129
+        width: 127
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +194,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd2fd4d1631f1d34ab9eb5f08269af27
-      internalID: 95405280
+      spriteID: 2436008b1564ac645905efa2e5d0eb29
+      internalID: -1149127796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocas-Arena_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 28
+        width: 126
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf384dafe7c19244b59dbb5122957ae
+      internalID: -669507524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocas-Arena_5
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 27
+        width: 125
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac85853a40875ea4e99ef37b432bfa72
+      internalID: 111342308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocas-Arena_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 283
+        width: 112
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d015659a038636418bc4024cc1003b9
+      internalID: -903924895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocas-Arena_7
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 255
+        width: 55
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00eed10eb05811941a05a3197f038bea
+      internalID: 309769505
       vertices: []
       indices: 
       edges: []
@@ -211,10 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "arbolOto\xF1o_3": 95405280
-      "arbolOto\xF1o_2": 690582458
-      "arbolOto\xF1o_0": 1919216132
-      "arbolOto\xF1o_1": 1030363530
+      Rocas-Arena_1: -540282018
+      Rocas-Arena_4: -669507524
+      Rocas-Arena_3: -1149127796
+      Rocas-Arena_0: -683784263
+      Rocas-Arena_6: -903924895
+      Rocas-Arena_2: 1000451756
+      Rocas-Arena_5: 111342308
+      Rocas-Arena_7: 309769505
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
