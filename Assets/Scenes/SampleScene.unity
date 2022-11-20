@@ -1721,8 +1721,9 @@ GameObject:
   - component: {fileID: 1216146139}
   - component: {fileID: 1216146138}
   - component: {fileID: 1216146137}
+  - component: {fileID: 1216146142}
   m_Layer: 0
-  m_Name: Idle_1
+  m_Name: Personaje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1823,13 +1824,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216146136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.16, y: 0.38, z: 0}
+  m_LocalPosition: {x: 6.26, y: 0.32, z: 0}
   m_LocalScale: {x: 1.9707899, y: 1.9259562, z: 1.161443}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1216146142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216146136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d66eb15e7eda9242a5f818bef885421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!213 &1328482896
 Sprite:
   m_ObjectHideFlags: 0
