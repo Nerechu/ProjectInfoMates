@@ -13,7 +13,7 @@ public class AmimacionesPersonaje : MonoBehaviour
 
     public void MovimientoHorizontal(float movimientoHorizontal){
           
-        _animator.SetFloat("velocidad", movimientoHorizontal);
+        _animator.SetFloat("Velocidad", Mathf.Abs(movimientoHorizontal));
     }
 
 }
