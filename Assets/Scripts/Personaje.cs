@@ -55,10 +55,25 @@ public class Personaje : MonoBehaviour
         float inputHorizontal = Input.GetAxisRaw("Horizontal") * _velocidadCaminar;
         OrientacionSprite(inputHorizontal);
         _animacionesPersonaje.MovimientoHorizontal(inputHorizontal);
+
+        float inputVertical = Input.GetAxisRaw("Vertical") * _velocidadCaminar;
+
+        if (inputVertical > 0) {
+
+            _animacionesPersonaje.MovimientoVerticalArriba(inputVertical);
+
+        }
+        else if (inputVertical < 0) {
+
+            _animacionesPersonaje.MovimientoVerticalAbajo(inputVertical);
+        
+        }
+        
+
     }
 
-    void OrientacionSprite(float inputHorizontal){
-        if (inputHorizontal > 0){
+    void OrientacionSprite(float inputHorizontal) {
+        if (inputHorizontal > 0) {
 
             _spriteRendererPersonaje.flipX = false;
 

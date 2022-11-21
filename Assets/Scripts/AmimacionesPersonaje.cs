@@ -16,4 +16,16 @@ public class AmimacionesPersonaje : MonoBehaviour
         _animator.SetFloat("Velocidad", Mathf.Abs(movimientoHorizontal));
     }
 
+    public void MovimientoVerticalAbajo(float movimientoVerticalAbajo)
+    {
+
+        _animator.SetFloat("Velocidad-ab", (movimientoVerticalAbajo));
+
+    }
+
+    public void MovimientoVerticalArriba(float movimientoVerticalArriba)
+    {
+
+        _animator.SetFloat("Velocidad-ar", (movimientoVerticalArriba));
+    }
 }
