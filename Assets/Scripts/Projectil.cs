@@ -21,7 +21,7 @@ public class Projectil : MonoBehaviour
         posProjectil = new Vector2(posProjectil.x, y:posProjectil.y + _vel * Time.deltaTime);
 
         transform.position = posProjectil;
-
+        //Ayuda arnau Posicion del personaje disparo
         Vector2 maxPantalla = Camera.main.ViewportToWorldPoint(new Vector2(x: 1, y: 1));
 
         if (transform.position.y > maxPantalla.y)
