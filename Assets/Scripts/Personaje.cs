@@ -68,7 +68,7 @@ public class Personaje : MonoBehaviour
             _animacionesPersonaje.MovimientoVerticalAbajo(inputVertical);
         
         }
-        
+      
 
     }
 
