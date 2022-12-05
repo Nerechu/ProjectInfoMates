@@ -23,10 +23,12 @@ public class Personaje : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
-        {
-            GameObject projectil = Instantiate(_prefabProjectil);
-            projectil.transform.position = _posCano.transform.position;
+
+        var controladorDisparo;
+        GameObject projectil = Instantiate(_prefabProjectil);
+
+        if(Input.GetKeyDown("space")){
+            Disparar();
         }
 
         //Trobar costats pantalla
@@ -62,13 +64,16 @@ public class Personaje : MonoBehaviour
 
             _animacionesPersonaje.MovimientoVerticalArriba(inputVertical);
 
+            if (Input.GetKeyDown("space")){
+                projectil.transform.position = _posCano.transform.position;
+            }
+
         }
         else if (inputVertical < 0) {
 
             _animacionesPersonaje.MovimientoVerticalAbajo(inputVertical);
-        
+
         }
-      
 
     }
 
@@ -77,10 +82,23 @@ public class Personaje : MonoBehaviour
 
             _spriteRendererPersonaje.flipX = false;
 
+            if (Input.GetKeyDown("space")){
+                GameObject projectil = Instantiate(_prefabProjectil);
+                projectil.transform.position = _posCano.transform.position;
+                projectil.transform.position = MovimientoHorizontal;
+            }
+
+
         } else if(inputHorizontal < 0) {
 
             _spriteRendererPersonaje.flipX = true;
-            
+
+
         }
+    }
+
+    void Disparar(){
+        GameObject projectil = Instantiate(_prefabProjectil);
+        Instantiate(projectil, controladorDisparo.position, controladorDisparo.inputHorizontal);
     }
 }
